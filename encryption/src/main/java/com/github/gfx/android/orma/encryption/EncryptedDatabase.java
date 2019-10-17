@@ -65,10 +65,7 @@ public class EncryptedDatabase implements Database {
     }
 
     @Override
-    public void beginTransactionNonExclusive() {
-        // SQLCipher does not support IMMEDIATE (non-exclusive) mode, so just call with EXCLUSIVE mode
-        database.beginTransaction();
-    }
+    public void beginTransactionNonExclusive() { database.beginTransactionNonExclusive(); }
 
     @Override
     public void setTransactionSuccessful() {

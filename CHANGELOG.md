@@ -10,6 +10,10 @@ The versioning follows [Semantic Versioning](http://semver.org/):
 
 Note that _experimental_ features, annotated with `@Experimental` may change without notice.
 
+## v6.0.3 2019/10/24
+* SQLCipher 3.6.9 -> 4.2.0
+* Encryption support transaction immediate
+
 ## v6.0.2 2018/10/29
 
 https://github.com/maskarade/Android-Orma/compare/v6.0.1...v6.0.2
